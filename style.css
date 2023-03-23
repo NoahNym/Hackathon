@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background: rgb(20, 19, 20);
+    color: rgb(138, 138, 138);
+    font-family: sans-serif;
+    overflow: hidden;
+
+
+}
+
+#header-top{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    height: 20px;
+    padding: 1rem;
+}
+
+#center{
+    width: 80%;
+    
+    height: 50vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#header-bottom{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#center-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ 
+
+#name{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#twitch{
+    background-image: linear-gradient(to bottom left, rgba(65, 26, 102, 0.753), rgba(46, 18, 71, 0.158));    height: 120px;
+    width: 210px;
+    padding: 1.6rem;
+    border: rgb(124, 101, 161) 1px solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-box-shadow:0px 0px 164px 106px rgba(65,26,102,0.33);
+    -moz-box-shadow: 0px 0px 164px 106px rgba(65,26,102,0.33);
+    box-shadow: 0px 0px 164px 106px rgba(65,26,102,0.33);
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.twitch-text1{
+    display: flex;
+    gap: 10px;
+}
+.twitch-text2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#collumns{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+     
+}
+
+.collumn-header{
+    height: 50px;
+    
+}
+
+.collumn-text{
+    display: flex;
+    gap: 10px;
+    padding: 0.6rem;
+    background: rgba(255, 102, 0, 0);
+    border: rgba(165, 67, 2, 0) 1px solid;
+    border-radius: 5px;
+}
+
+.collumn-text:hover{
+    background: rgba(255, 102, 0, 0.192);
+    border: rgb(165, 67, 2) 1px solid;
+    border-radius: 5px;
+}
+
+button{
+    color: gray;
+    background: rgb(46, 45, 45);
+    border: none;
+    border-radius:17px ;
+    padding: 0.6rem;
+}
+button:hover{
+    scale: 1.05;
+}
+button:active{
+    scale: 0.95;
+}
+
+p{
+    font-size: 1.3rem;
+}
+.white-text{
+    color: white;
+}
+.purple-text{
+    color: rgb(127, 71, 172);
+}
+.big-text{
+    font-size: 3.8rem;
+}
+.medium-text{
+    font-size: 1.6rem;
+}
+.small-text{
+    font-size: 0.9rem;
+}
+
+img:hover{
+    scale: 1.25;
+}
